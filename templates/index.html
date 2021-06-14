@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Welcome!</title>
+        <link rel="stylesheet" type="text/css" href="/static/css/style.css?q={{time}}" />
+        <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Roboto:wght@500&display=swap" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <h1>Which "The Office" Character are you?</h1>
+        <p>Take the quiz below to find out which The Office Character best represents you!</p>
+        <img src="static/images/dunder.png" class="center_pic"/>
+        <form method="post" action="/results">
+        <div class = "cell">
+        <label for="animal"><h3>Favorite Animal </h3></label>
+        <input type="radio" name="animal" value="bear"> Bear<br>
+        <input type="radio" name="animal" value="kitten"> Kitten<br>
+        <input type="radio" name="animal" value="dog"> Dog<br>
+        <input type="radio" name="animal" value="koi"> Koi Fish
+        </div>
+        <div class = "cell">
+        <label for='vacation'><h3>Favorite Vacation </h3></label>
+        <input type="radio" name='vacation' value="jamaica">Jamaica<br>
+        <input type="radio" name="vacation" value="farm_stay"> Farm Stay<br>
+        <input type="radio" name='vacation' value="paris"> Paris<br>
+        <input type="radio" name='vacation' value="nba_finals"> NBA Finals
+        </div>
+        <div class = "cell">
+        <label for="food"><h3>Favorite Food </h3></label>
+        <input type="radio" name="food" value="yogurt">Yogurt<br>
+        <input type="radio" name="food" value="bloomin_onion"> Bloomin' Onion<br>
+        <input type="radio" name="food" value="beets"> Beets<br>
+        <input type="radio" name="food" value="italian_food"> Italian Food<br>
+        </div>
+        <div class = "cell">
+        <input type='submit'>
+        </div>
+        </form>
+    </body>
+</html>
+
